@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/SDWebImage/SDWebImageManager.m"
+            timestampString = "404205060.05256"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "-downloadWithURL:options:progress:completed:dealed:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__71-[SDWebImageManager downloadWithURL:options:progress:completed:dealed:]_block_invoke54"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/SDWebImage/SDWebImageManager.m"
+                  timestampString = "404211520.093578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__71-[SDWebImageManager downloadWithURL:options:progress:completed:dealed:]_block_invoke54"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/SDWebImage/SDWebImageManager.m"
+                  timestampString = "404211520.093767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "2545">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/SDWebImage/SDWebImageDownloader.m"
+            timestampString = "404209842.97225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-downloadImageWithURL:options:progress:completed:dealed:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__79-[SDWebImageDownloader downloadImageWithURL:options:progress:completed:dealed:]_block_invoke"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/SDWebImage/SDWebImageDownloader.m"
+                  timestampString = "404211520.093939"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__79-[SDWebImageDownloader downloadImageWithURL:options:progress:completed:dealed:]_block_invoke"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/SDWebImage/SDWebImageDownloader.m"
+                  timestampString = "404211520.094093"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "419">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__79-[SDWebImageDownloader downloadImageWithURL:options:progress:completed:dealed:]_block_invoke"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/SDWebImage/SDWebImageDownloader.m"
+                  timestampString = "404211520.094248"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "1625">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404206950.922848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-photoStartLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404208616.541018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "-photoDidFinishLoadWithImage:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404208614.576454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "-photoStartLoad"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__29-[MJPhotoView photoStartLoad]_block_invoke"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+                  timestampString = "404211520.094745"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__29-[MJPhotoView photoStartLoad]_block_invoke_2"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+                  timestampString = "404211520.094899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404209205.652506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-showImage"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404209223.15546"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-showImage"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[MJPhotoView showImage]_block_invoke"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+                  timestampString = "404211520.095228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[MJPhotoView showImage]_block_invoke_2"
+                  moduleName = "GFWallPaper"
+                  urlString = "file:///Users/Huangweihua/%E4%BB%A3%E7%A0%81%E7%BB%83%E4%B9%A0/GFWallPaper/GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+                  timestampString = "404211520.095381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404209228.70602"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-showImage"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/MJPhotoBrowser/MJPhotoView.m"
+            timestampString = "404209319.951333"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-showImage"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GFWallPaper/External/SDWebImage/SDWebImageManager.m"
+            timestampString = "404209413.204897"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "-downloadWithURL:options:progress:completed:dealed:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
