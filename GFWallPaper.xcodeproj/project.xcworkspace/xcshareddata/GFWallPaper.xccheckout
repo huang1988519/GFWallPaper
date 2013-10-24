@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F8DB6B4-D251-4F1F-8BEF-902EDB13FC2D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GFWallPaper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2ACEA061-0203-43FB-ABD0-7AD37AB918DA</key>
+		<string>ssh://github.com/huang1988519/GFWallPaper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GFWallPaper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2ACEA061-0203-43FB-ABD0-7AD37AB918DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/huang1988519/GFWallPaper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2ACEA061-0203-43FB-ABD0-7AD37AB918DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2ACEA061-0203-43FB-ABD0-7AD37AB918DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GFWallPaper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

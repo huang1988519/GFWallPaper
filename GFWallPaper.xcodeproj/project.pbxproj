@@ -61,6 +61,15 @@
 		8B482C871807E82800BF0364 /* CFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B482C861807E82800BF0364 /* CFTableViewController.m */; };
 		8B482C891807E9E100BF0364 /* CFTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B482C881807E9E100BF0364 /* CFTableViewController.xib */; };
 		8B482C8B1807E9F800BF0364 /* CFTableViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B482C8A1807E9F800BF0364 /* CFTableViewController_iPad.xib */; };
+		8B7DFD3318191A0200CD04B6 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD1D18191A0200CD04B6 /* EGOCache.m */; };
+		8B7DFD3418191A0200CD04B6 /* FSBasicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2018191A0200CD04B6 /* FSBasicImage.m */; };
+		8B7DFD3518191A0200CD04B6 /* FSBasicImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2218191A0200CD04B6 /* FSBasicImageSource.m */; };
+		8B7DFD3618191A0200CD04B6 /* FSImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2518191A0200CD04B6 /* FSImageLoader.m */; };
+		8B7DFD3718191A0200CD04B6 /* FSImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2718191A0200CD04B6 /* FSImageScrollView.m */; };
+		8B7DFD3818191A0200CD04B6 /* FSImageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2A18191A0200CD04B6 /* FSImageTitleView.m */; };
+		8B7DFD3918191A0200CD04B6 /* FSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2C18191A0200CD04B6 /* FSImageView.m */; };
+		8B7DFD3A18191A0200CD04B6 /* FSImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD3018191A0200CD04B6 /* FSImageViewerViewController.m */; };
+		8B7DFD3B18191A0200CD04B6 /* FSPlaceholderImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD3218191A0200CD04B6 /* FSPlaceholderImages.m */; };
 		8BAA980118166DE0004AFEA6 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA97CD18166DE0004AFEA6 /* MBProgressHUD+Add.m */; };
 		8BAA980218166DE0004AFEA6 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA97CE18166DE0004AFEA6 /* MBProgressHUD.bundle */; };
 		8BAA980318166DE0004AFEA6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA97D018166DE0004AFEA6 /* MBProgressHUD.m */; };
@@ -182,6 +191,28 @@
 		8B482C861807E82800BF0364 /* CFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTableViewController.m; sourceTree = "<group>"; };
 		8B482C881807E9E100BF0364 /* CFTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFTableViewController.xib; sourceTree = "<group>"; };
 		8B482C8A1807E9F800BF0364 /* CFTableViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFTableViewController_iPad.xib; sourceTree = "<group>"; };
+		8B7DFD1C18191A0200CD04B6 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		8B7DFD1D18191A0200CD04B6 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		8B7DFD1F18191A0200CD04B6 /* FSBasicImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBasicImage.h; sourceTree = "<group>"; };
+		8B7DFD2018191A0200CD04B6 /* FSBasicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBasicImage.m; sourceTree = "<group>"; };
+		8B7DFD2118191A0200CD04B6 /* FSBasicImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBasicImageSource.h; sourceTree = "<group>"; };
+		8B7DFD2218191A0200CD04B6 /* FSBasicImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBasicImageSource.m; sourceTree = "<group>"; };
+		8B7DFD2318191A0200CD04B6 /* FSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImage.h; sourceTree = "<group>"; };
+		8B7DFD2418191A0200CD04B6 /* FSImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageLoader.h; sourceTree = "<group>"; };
+		8B7DFD2518191A0200CD04B6 /* FSImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageLoader.m; sourceTree = "<group>"; };
+		8B7DFD2618191A0200CD04B6 /* FSImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageScrollView.h; sourceTree = "<group>"; };
+		8B7DFD2718191A0200CD04B6 /* FSImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageScrollView.m; sourceTree = "<group>"; };
+		8B7DFD2818191A0200CD04B6 /* FSImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageSource.h; sourceTree = "<group>"; };
+		8B7DFD2918191A0200CD04B6 /* FSImageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageTitleView.h; sourceTree = "<group>"; };
+		8B7DFD2A18191A0200CD04B6 /* FSImageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageTitleView.m; sourceTree = "<group>"; };
+		8B7DFD2B18191A0200CD04B6 /* FSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageView.h; sourceTree = "<group>"; };
+		8B7DFD2C18191A0200CD04B6 /* FSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageView.m; sourceTree = "<group>"; };
+		8B7DFD2D18191A0200CD04B6 /* FSImageViewer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSImageViewer-Prefix.pch"; sourceTree = "<group>"; };
+		8B7DFD2E18191A0200CD04B6 /* FSImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageViewer.h; sourceTree = "<group>"; };
+		8B7DFD2F18191A0200CD04B6 /* FSImageViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageViewerViewController.h; sourceTree = "<group>"; };
+		8B7DFD3018191A0200CD04B6 /* FSImageViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageViewerViewController.m; sourceTree = "<group>"; };
+		8B7DFD3118191A0200CD04B6 /* FSPlaceholderImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlaceholderImages.h; sourceTree = "<group>"; };
+		8B7DFD3218191A0200CD04B6 /* FSPlaceholderImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlaceholderImages.m; sourceTree = "<group>"; };
 		8BAA97CC18166DE0004AFEA6 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		8BAA97CD18166DE0004AFEA6 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		8BAA97CE18166DE0004AFEA6 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -357,6 +388,8 @@
 		8B482B981807A9EB00BF0364 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				8B7DFD1B18191A0200CD04B6 /* EGOCache */,
+				8B7DFD1E18191A0200CD04B6 /* FSImageViewer */,
 				8BAA97CB18166DE0004AFEA6 /* MBProgressHUD */,
 				8BAA97D118166DE0004AFEA6 /* MJPhotoBrowser */,
 				8BAA97DF18166DE0004AFEA6 /* SDWebImage */,
@@ -483,6 +516,42 @@
 				8B482C8A1807E9F800BF0364 /* CFTableViewController_iPad.xib */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B7DFD1B18191A0200CD04B6 /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DFD1C18191A0200CD04B6 /* EGOCache.h */,
+				8B7DFD1D18191A0200CD04B6 /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		8B7DFD1E18191A0200CD04B6 /* FSImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DFD1F18191A0200CD04B6 /* FSBasicImage.h */,
+				8B7DFD2018191A0200CD04B6 /* FSBasicImage.m */,
+				8B7DFD2118191A0200CD04B6 /* FSBasicImageSource.h */,
+				8B7DFD2218191A0200CD04B6 /* FSBasicImageSource.m */,
+				8B7DFD2318191A0200CD04B6 /* FSImage.h */,
+				8B7DFD2418191A0200CD04B6 /* FSImageLoader.h */,
+				8B7DFD2518191A0200CD04B6 /* FSImageLoader.m */,
+				8B7DFD2618191A0200CD04B6 /* FSImageScrollView.h */,
+				8B7DFD2718191A0200CD04B6 /* FSImageScrollView.m */,
+				8B7DFD2818191A0200CD04B6 /* FSImageSource.h */,
+				8B7DFD2918191A0200CD04B6 /* FSImageTitleView.h */,
+				8B7DFD2A18191A0200CD04B6 /* FSImageTitleView.m */,
+				8B7DFD2B18191A0200CD04B6 /* FSImageView.h */,
+				8B7DFD2C18191A0200CD04B6 /* FSImageView.m */,
+				8B7DFD2D18191A0200CD04B6 /* FSImageViewer-Prefix.pch */,
+				8B7DFD2E18191A0200CD04B6 /* FSImageViewer.h */,
+				8B7DFD2F18191A0200CD04B6 /* FSImageViewerViewController.h */,
+				8B7DFD3018191A0200CD04B6 /* FSImageViewerViewController.m */,
+				8B7DFD3118191A0200CD04B6 /* FSPlaceholderImages.h */,
+				8B7DFD3218191A0200CD04B6 /* FSPlaceholderImages.m */,
+			);
+			path = FSImageViewer;
 			sourceTree = "<group>";
 		};
 		8BAA97CB18166DE0004AFEA6 /* MBProgressHUD */ = {
@@ -709,7 +778,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7DFD3518191A0200CD04B6 /* FSBasicImageSource.m in Sources */,
+				8B7DFD3618191A0200CD04B6 /* FSImageLoader.m in Sources */,
 				8B482BB81807AA8E00BF0364 /* AFURLConnectionOperation.m in Sources */,
+				8B7DFD3318191A0200CD04B6 /* EGOCache.m in Sources */,
 				8BAA981418166DE0004AFEA6 /* SDWebImagePrefetcher.m in Sources */,
 				8BAA980818166DE0004AFEA6 /* MJPhotoProgressView.m in Sources */,
 				8B482C7E1807E2BF00BF0364 /* KLScrollSelect.m in Sources */,
@@ -736,8 +808,11 @@
 				8B482B6D1807A8D500BF0364 /* main.m in Sources */,
 				8B482BCA1807AC8500BF0364 /* TFHppleElement.m in Sources */,
 				8BAA981218166DE0004AFEA6 /* SDWebImageManager+MJ.m in Sources */,
+				8B7DFD3818191A0200CD04B6 /* FSImageTitleView.m in Sources */,
+				8B7DFD3A18191A0200CD04B6 /* FSImageViewerViewController.m in Sources */,
 				8B482C791807D26600BF0364 /* CFEntitys.m in Sources */,
 				8B482B711807A8D500BF0364 /* CFAppDelegate.m in Sources */,
+				8B7DFD3918191A0200CD04B6 /* FSImageView.m in Sources */,
 				8BAA980718166DE0004AFEA6 /* MJPhotoLoadingView.m in Sources */,
 				8BE84F961809460200819D93 /* UINavigationBar+Custom.m in Sources */,
 				8BAA980B18166DE0004AFEA6 /* MKAnnotationView+WebCache.m in Sources */,
@@ -747,10 +822,13 @@
 				8BAA981018166DE0004AFEA6 /* SDWebImageDownloader.m in Sources */,
 				8B482BB51807AA8E00BF0364 /* AFJSONRequestOperation.m in Sources */,
 				8B482B7A1807A8D500BF0364 /* CFViewController.m in Sources */,
+				8B7DFD3418191A0200CD04B6 /* FSBasicImage.m in Sources */,
 				8BAA981918166DE0004AFEA6 /* UIImageView+MJWebCache.m in Sources */,
+				8B7DFD3B18191A0200CD04B6 /* FSPlaceholderImages.m in Sources */,
 				8B482BB71807AA8E00BF0364 /* AFPropertyListRequestOperation.m in Sources */,
 				8BAA980618166DE0004AFEA6 /* MJPhotoBrowser.m in Sources */,
 				8B482BB61807AA8E00BF0364 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				8B7DFD3718191A0200CD04B6 /* FSImageScrollView.m in Sources */,
 				8BAA980118166DE0004AFEA6 /* MBProgressHUD+Add.m in Sources */,
 				8B482BCB1807AC8500BF0364 /* XPathQuery.m in Sources */,
 				8BAA98201816762C004AFEA6 /* UIImageView+WebCache.m in Sources */,

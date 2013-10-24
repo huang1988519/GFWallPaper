@@ -11,6 +11,7 @@
 #import "UIImageView+WebCache.h"
 #import <QuartzCore/QuartzCore.h>
 #import "CFNetwork.h"
+#import "UIImageView+AFNetworking.h"
 @interface MJPhotoView ()
 {
     BOOL _doubleTap;
@@ -74,13 +75,25 @@
             __unsafe_unretained MJPhoto *photo = _photo;
             
             [[CFNetwork shareNetwork] getBigPicture:_photo.url.absoluteString sucusse:^(NSString *bigUrl) {
+                [_imageView setImageWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[Base_Url stringByAppendingString:bigUrl]]] placeholderImage:_photo.placeholder success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+                    
+                    photo.image = image;
+                    
+                    // 调整frame参数
+                    [photoView adjustFrame];
+                    
+                } failure:
+                 ^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+                     
+                 }];
+                /*
                 [_imageView setImageWithURL:[NSURL URLWithString:[Base_Url stringByAppendingString:bigUrl]] placeholderImage:_photo.placeholder options:SDWebImageRetryFailed|SDWebImageLowPriority completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
                     photo.image = image;
                     
                     // 调整frame参数
                     [photoView adjustFrame];
                 }];
-            
+            */
             }];
             
             
@@ -107,6 +120,25 @@
         
         __unsafe_unretained MJPhotoView *photoView = self;
         __unsafe_unretained MJPhotoLoadingView *loading = _photoLoadingView;
+        
+        
+        
+        [[CFNetwork shareNetwork] getBigPicture:_photo.url.absoluteString sucusse:^(NSString *bigUrl) {
+            [_imageView setImageWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[Base_Url stringByAppendingString:bigUrl]]] placeholderImage:_photo.srcImageView.image success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+                
+                [photoView photoDidFinishLoadWithImage:image];
+
+                
+            } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
+                
+            }];
+        }];
+        
+        
+        return;
+        
+        
+        
         
         [[CFNetwork shareNetwork] getBigPicture:_photo.url.absoluteString sucusse:^(NSString *bigUrl) {
             [_imageView setImageWithURL:[NSURL URLWithString:[Base_Url stringByAppendingString:bigUrl]] placeholderImage:_photo.srcImageView.image options:SDWebImageRetryFailed|SDWebImageLowPriority progress:^(NSUInteger receivedSize, long long expectedSize) {

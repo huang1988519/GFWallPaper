@@ -13,6 +13,9 @@
 #import "MJPhotoBrowser.h"
 #import "MJPhoto.h"
 #import "UIImageView+MJWebCache.h"
+
+#import "FSBasicImage.h"
+#import "FSBasicImageSource.h"
 @interface CFTableViewController ()
 {
     
@@ -39,7 +42,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuWillAppear:) name:UIMenuWillAppearNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(meuWillDisAppear:) name:UIMenuWillDisAppearNotification object:nil];
@@ -149,22 +151,26 @@
 }
 - (void)scrollSelect:(KLScrollSelect *)tableView didSelectCellAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Selected cell at index %d, %d, %d", indexPath.column, indexPath.section, indexPath.row);
-    NSArray * arytmp = indexPath.column == 0?self.leftColumnData:self.rightColumnData;
-
     
-    CFThumbItemEntity * entity =(CFThumbItemEntity *) [arytmp objectAtIndex:indexPath.row];
-
-    NSString *url = [entity.link stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    
+//    NSArray * arytmp = indexPath.column == 0?self.leftColumnData:self.rightColumnData;
+//
+//    
+//    CFThumbItemEntity * entity =(CFThumbItemEntity *) [arytmp objectAtIndex:indexPath.row];
+//
+//    NSString *url = [entity.link stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    
+//    [[CFNetwork shareNetwork] getBigPicture:url sucusse:^(NSString *bigUrl)
+//     {
+//        UIImageView * imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+//         [self.view addSubview:imageView];
+//        [imageView setAFImageWithURL:[NSURL URLWithString:[Base_Url stringByAppendingString:bigUrl]] placeholderImage:nil];
+//    }];
+//    
+//    return;
     
-    [[CFNetwork shareNetwork] getBigPicture:url sucusse:^(NSString *bigUrl)
-     {
-        UIImageView * imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-         [self.view addSubview:imageView];
-        [imageView setAFImageWithURL:[NSURL URLWithString:[Base_Url stringByAppendingString:bigUrl]] placeholderImage:nil];
-    }];
-    
-    return;
-    
+     
+    /*
     int count = self.leftColumnData.count + self.rightColumnData.count;
     NSArray * ary = indexPath.column == 0?self.leftColumnData:self.rightColumnData;
     CFThumbItemEntity * curEntity =(CFThumbItemEntity *) [ary objectAtIndex:indexPath.row];
@@ -198,7 +204,39 @@
     browser.photos = photos; // 设置所有的图片
     [browser show];
     
+    */
     
+    
+    
+    int count = self.leftColumnData.count + self.rightColumnData.count;
+    NSArray * ary = indexPath.column == 0?self.leftColumnData:self.rightColumnData;
+    CFThumbItemEntity * curEntity =(CFThumbItemEntity *) [ary objectAtIndex:indexPath.row];
+    
+    
+    
+    // 1.封装图片数据
+    
+    
+    
+    NSUInteger curIndex = 0;
+    NSMutableArray *photos = [NSMutableArray arrayWithCapacity:count];
+    for (int i = 0; i<count; i++) {
+        // 替换为中等尺寸图片
+        CFThumbItemEntity * entity =(CFThumbItemEntity *) [_allCatogaryAry objectAtIndex:i];
+        if ([entity.link isEqualToString:curEntity.link]) {
+            curIndex = i;
+        }
+        NSString *url = [entity.link stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+
+        
+        FSBasicImage *firstPhoto = [[FSBasicImage alloc] initWithImageURL:[NSURL URLWithString:url] name:entity.name];
+        [photos addObject:firstPhoto];
+    }
+    
+    FSBasicImageSource *photoSource = [[FSBasicImageSource alloc] initWithImages:photos];
+    FSImageViewerViewController * pushController = [[FSImageViewerViewController alloc] initWithImageSource:photoSource imageIndex:curIndex];
+    
+    [self.navigationController pushViewController:pushController animated:YES];
 }
 - (CGFloat) scrollSelect: (KLScrollSelect*) scrollSelect heightForColumnAtIndex: (NSInteger) index {
     if (isIpad) {

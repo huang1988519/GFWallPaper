@@ -16,6 +16,7 @@
     #import "CFEntitys.h"
     #import "UINavigationBar+Custom.h"
     #import "CFGlobal.h"
+    #import "CFNetwork.h"
 #endif
 
 #define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
@@ -23,6 +24,8 @@
 
 #define AlertWithMsg(msg) [[[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] show];
 #define NetworkShow(yesOrNo) [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:yesOrNo];
+
+#define URLWithString(urlString) [NSURL URLWithString:urlString]
 #pragma mark  - urls
 
 #define Base_Url @"http://good-wallpapers.com"

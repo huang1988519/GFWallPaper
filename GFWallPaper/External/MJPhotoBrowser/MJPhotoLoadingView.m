@@ -45,6 +45,7 @@
 
 - (void)showLoading
 {
+    return;
     [_failureLabel removeFromSuperview];
     
     if (_progressView == nil) {

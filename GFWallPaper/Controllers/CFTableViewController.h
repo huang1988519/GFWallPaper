@@ -12,7 +12,7 @@
 @property (weak, nonatomic) IBOutlet KLScrollSelect *scrollSelect;
 @property (nonatomic, strong) NSArray * leftColumnData;
 @property (nonatomic, strong) NSArray * rightColumnData;
-
+@property (nonatomic, assign) UINavigationController * navigationController;
 
 -(void)reloadDataWithKind:(NSString *)kind;
 

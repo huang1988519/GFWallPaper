@@ -76,7 +76,7 @@
 -(void)reloadData{
     
     CFTableViewController * tableView = [[CFTableViewController alloc] initWithNibName:@"CFTableViewController" bundle:nil];
-    
+    tableView.navigationController = self.navigationController;
     [self.view addSubview:tableView.view];
 }
 - (void)didReceiveMemoryWarning
