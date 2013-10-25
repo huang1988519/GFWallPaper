@@ -70,6 +70,7 @@
 		8B7DFD3918191A0200CD04B6 /* FSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD2C18191A0200CD04B6 /* FSImageView.m */; };
 		8B7DFD3A18191A0200CD04B6 /* FSImageViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD3018191A0200CD04B6 /* FSImageViewerViewController.m */; };
 		8B7DFD3B18191A0200CD04B6 /* FSPlaceholderImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DFD3218191A0200CD04B6 /* FSPlaceholderImages.m */; };
+		8B7DFD3D181A546400CD04B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B7DFD3C181A546400CD04B6 /* README.md */; };
 		8BAA981D181672D8004AFEA6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA981C181672D8004AFEA6 /* UIImageView+AFNetworking.m */; };
 		8BE84F911809443B00819D93 /* barBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE84F8F1809443B00819D93 /* barBackGround.png */; };
 		8BE84F921809443B00819D93 /* barBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE84F901809443B00819D93 /* barBackGround@2x.png */; };
@@ -187,6 +188,7 @@
 		8B7DFD3018191A0200CD04B6 /* FSImageViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageViewerViewController.m; sourceTree = "<group>"; };
 		8B7DFD3118191A0200CD04B6 /* FSPlaceholderImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlaceholderImages.h; sourceTree = "<group>"; };
 		8B7DFD3218191A0200CD04B6 /* FSPlaceholderImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlaceholderImages.m; sourceTree = "<group>"; };
+		8B7DFD3C181A546400CD04B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		8BAA981B181672D8004AFEA6 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		8BAA981C181672D8004AFEA6 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		8BE84F8F1809443B00819D93 /* barBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barBackGround.png; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 		8B482B541807A8D500BF0364 = {
 			isa = PBXGroup;
 			children = (
+				8B7DFD3C181A546400CD04B6 /* README.md */,
 				8BE84F93180945E700819D93 /* Global */,
 				8B482C7F1807E5A900BF0364 /* Images */,
 				8B482C761807D23B00BF0364 /* Entity */,
@@ -579,6 +582,7 @@
 				8B2A84191811173D0026C9FD /* thumb_loading_cn.png in Resources */,
 				8B482C891807E9E100BF0364 /* CFTableViewController.xib in Resources */,
 				8BE84F911809443B00819D93 /* barBackGround.png in Resources */,
+				8B7DFD3D181A546400CD04B6 /* README.md in Resources */,
 				8B2A83F8180FD1C70026C9FD /* Menu_BarItem.png in Resources */,
 				8B2A8400180FD5E40026C9FD /* UpPageBtn.png in Resources */,
 				8B482C8B1807E9F800BF0364 /* CFTableViewController_iPad.xib in Resources */,
