@@ -10,9 +10,7 @@
 #import "CFNetwork.h"
 #import "UIImageView+AFNetworking.h"
 
-#import "MJPhotoBrowser.h"
-#import "MJPhoto.h"
-#import "UIImageView+MJWebCache.h"
+
 
 #import "FSBasicImage.h"
 #import "FSBasicImageSource.h"
@@ -145,7 +143,7 @@
     NSString * url =[[Base_Url stringByAppendingString:entity.thumbImg] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     //防止重用
     [cell.image setImage:nil];
-    [cell.image setImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage imageNamed:@"thumb_loading.png"]];
+    [cell.image setAFImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage imageNamed:@"thumb_loading.png"]];
 
     return cell;
 }
