@@ -103,11 +103,11 @@
     if (!aImage) {
         return;
     }
-    if ([aImage isEqual:_image]) {
+    if ([[aImage URL] isEqual:[_image URL]]) {
         return;
     }
     if (_image != nil) {
-        [[FSImageLoader sharedInstance] cancelRequestForUrl:_image.URL];
+        [[FSImageLoader sharedInstance] cancelRequestForUrl:[_image realURL]];
     }
 
     _image = aImage;
@@ -165,10 +165,10 @@
             }else{
                 [[CFNetwork shareNetwork] getBigPicture:_image.URL.absoluteString sucusse:^(NSString *bigUrl) {
                     if (bigUrl) {
-                        [_image setRealURL:URLWithString([Base_Url stringByAppendingString:bigUrl])];
+                        [_image setRealURL:URLWithString([[Base_Url stringByAppendingString:bigUrl] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding])];
                         
                         
-                        [[FSImageLoader sharedInstance] loadImageForURL:URLWithString([Base_Url stringByAppendingString:bigUrl]) image:^(UIImage *image, NSError *error) {
+                        [[FSImageLoader sharedInstance] loadImageForURL:[_image realURL] image:^(UIImage *image, NSError *error) {
                             if (!error) {
                                 [self setupImageViewWithImage:image];
                             }

@@ -88,7 +88,8 @@
     else {
         [self cancelRequestForUrl:aURL];
 
-        NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:aURL cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:_timeoutInterval];
+        NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:aURL cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:_timeoutInterval];
+        [urlRequest addValue:@"http://good-wallpapers.com/" forHTTPHeaderField:@"Referer"];
         AFImageRequestOperation *imageRequestOperation = [[AFImageRequestOperation alloc] initWithRequest:urlRequest];
         [runningRequests addObject:imageRequestOperation];
 
